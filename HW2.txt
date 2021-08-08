@@ -1,0 +1,124 @@
+
+37544@LAPTOP-JLCSCKH8 MINGW32 ~
+$ pwd
+/c/Users/37544
+
+37544@LAPTOP-JLCSCKH8 MINGW32 ~
+$ mkdir qacourse
+
+37544@LAPTOP-JLCSCKH8 MINGW32 ~
+$ cd qacourse
+
+37544@LAPTOP-JLCSCKH8 MINGW32 ~/qacourse
+$ mkdir qa1 qa2 qa3
+
+37544@LAPTOP-JLCSCKH8 MINGW32 ~/qacourse
+$ cd qa2
+
+37544@LAPTOP-JLCSCKH8 MINGW32 ~/qacourse/qa2
+$ touch qac.txt qac1.txt qac2.txt qac3.json qac4.json
+
+37544@LAPTOP-JLCSCKH8 MINGW32 ~/qacourse/qa2
+$ mkdir qacourse1 qacourse2 qacourse3
+
+37544@LAPTOP-JLCSCKH8 MINGW32 ~/qacourse/qa2
+$ ls -la
+total 4
+drwxr-xr-x 1 37544 197610 0 Aug  7 19:27 ./
+drwxr-xr-x 1 37544 197610 0 Aug  7 19:26 ../
+-rw-r--r-- 1 37544 197610 0 Aug  7 19:27 qac.txt
+-rw-r--r-- 1 37544 197610 0 Aug  7 19:27 qac1.txt
+-rw-r--r-- 1 37544 197610 0 Aug  7 19:27 qac2.txt
+-rw-r--r-- 1 37544 197610 0 Aug  7 19:27 qac3.json
+-rw-r--r-- 1 37544 197610 0 Aug  7 19:27 qac4.json
+drwxr-xr-x 1 37544 197610 0 Aug  7 19:27 qacourse1/
+drwxr-xr-x 1 37544 197610 0 Aug  7 19:27 qacourse2/
+drwxr-xr-x 1 37544 197610 0 Aug  7 19:27 qacourse3/
+
+37544@LAPTOP-JLCSCKH8 MINGW32 ~/qacourse/qa2
+$ start qac1.txt
+
+37544@LAPTOP-JLCSCKH8 MINGW32 ~/qacourse/qa2
+$ vi qac1.txt
+
+37544@LAPTOP-JLCSCKH8 MINGW32 ~/qacourse/qa2
+$ cd ..
+
+37544@LAPTOP-JLCSCKH8 MINGW32 ~/qacourse
+$ pwd
+/c/Users/37544/qacourse
+
+37544@LAPTOP-JLCSCKH8 MINGW32 ~/qacourse
+$ cd qa2
+
+37544@LAPTOP-JLCSCKH8 MINGW32 ~/qacourse/qa2
+$ mv qac1.txt qac2.txt qacourse1
+
+37544@LAPTOP-JLCSCKH8 MINGW32 ~/qacourse/qa2
+$ cp qac.txt qac3.json qacourse1
+
+37544@LAPTOP-JLCSCKH8 MINGW32 ~/qacourse/qa2
+$ pwd
+/c/Users/37544/qacourse/qa2
+
+37544@LAPTOP-JLCSCKH8 MINGW32 ~/qacourse/qa2
+$ cd qacourse
+bash: cd: qacourse: No such file or directory
+
+37544@LAPTOP-JLCSCKH8 MINGW32 ~/qacourse/qa2
+$ cd qa2
+bash: cd: qa2: No such file or directory
+
+37544@LAPTOP-JLCSCKH8 MINGW32 ~/qacourse/qa2
+$ pwd
+/c/Users/37544/qacourse/qa2
+
+37544@LAPTOP-JLCSCKH8 MINGW32 ~/qacourse/qa2
+$ cd /c/Users/37544/qacourse
+
+37544@LAPTOP-JLCSCKH8 MINGW32 ~/qacourse
+$ find qa2/qacourse1/qac1.txt
+qa2/qacourse1/qac1.txt
+
+37544@LAPTOP-JLCSCKH8 MINGW32 ~/qacourse
+$ tail qa2/qacourseq/qac1.txt
+tail: cannot open 'qa2/qacourseq/qac1.txt' for reading: No such file or directory
+
+37544@LAPTOP-JLCSCKH8 MINGW32 ~/qacourse
+$ pwd
+/c/Users/37544/qacourse
+
+37544@LAPTOP-JLCSCKH8 MINGW32 ~/qacourse
+$ tail /c/Users/37544/qacourse/qa2/qacourse1/qac1.txt
+it
+sunny
+day
+today
+bright
+
+37544@LAPTOP-JLCSCKH8 MINGW32 ~/qacourse
+$ nl /c/Users/37544/qacourse/qa2/qacourse1/qac1.txt
+
+     1  it
+     2  sunny
+     3  day
+     4  today
+     5  bright
+
+
+37544@LAPTOP-JLCSCKH8 MINGW32 ~/qacourse
+$ head -n2 /c/Users/37544/qacourse/qa2/qacourse1/qac1.txt
+it
+sunny
+
+37544@LAPTOP-JLCSCKH8 MINGW32 ~/qacourse
+$ tail -3 /c/Users/37544/qacourse/qa2/qacourse1/qac1.txt
+day
+today
+bright
+
+less /c/Users/37544/qacourse/qa2/qacourse1/qac1.txt
+
+37544@LAPTOP-JLCSCKH8 MINGW32 ~/qacourse
+$ date
+/Sat Aug  7 20:14:33     2021
